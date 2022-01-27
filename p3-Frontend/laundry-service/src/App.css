@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  margin-left: 50px;
+  background-color: rgb(197, 188, 188);
+  width : 100vw;
+}
+
+.navs{
+  color: #5861AE;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 108px;
+  height: 68px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.li{
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 12px;
+  padding : 33.5px 40px 27.5px 30.5px ;
+}
+
+.navlast{
+  color: aliceblue;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 12px;
+  padding : 33.5px 40px 27.5px 30.5px ;
+  background-color: rgb(83, 83, 180);
+}
+
+.container{
+  margin-top: 5px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.registerpart {
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 243) ;
+}
+
+.signinpart{
+  background-color: rgb(212, 212, 240);
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.registercontent{
+  margin-top: 80px;
+}
+.maintitle{
+  color: #5861AE;
+  margin-left: 150px;
+  font-size: 99PX;
+  text-align: left;
+}
+
+.belowtitle{
+  margin-left: 150px;
+  text-align: left;
+}
+
+.registerbutton{
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  margin-left: -369px;
+  border-radius: 5px;
+  border-color: rgb(146, 146, 218);
+  border-width: 3px;
+  background-color: white;
+}
+
+.footer{
+  width : 100vw;
+  padding-top: 20px;
+  background-color: rgb(83, 83, 180);
+  height: 70px;
+  text-align: center;
+}
+
+.signincontent{
+  margin-left: 150px;
+  margin-top: 120px;
+  text-align: left;
+}
+.signintitle{
+  color :rgb(78, 78, 129)
+}
+.signinform{
+  margin-top: 40px;
+}
+.field{
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.signinbutton{
+  text-align: center;
+  margin-top: 55px;
+  margin-left:100px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 3px;
+  background-color: rgb(128, 149, 206);
+}
+
+label{
+  display: block;
+  text-align: left;
+  font: normal normal normal 12px/15px ;
+  letter-spacing: 0.42px;
+  color: #5861AE;
+  }
+
+input{
+  border: none;
+  outline: none;
+  padding: .5rem 1rem;
+  text-align: left;
+  font: normal normal 600 17px/27px ;
+  letter-spacing: 0.6px;
+  color: #424548; 
+  background: #B9C0FD1A 0% 0% no-repeat padding-box;
+}
+
+.under-line{
+  margin-top: -3px;
+  width:300px;
+  border: 1px solid #5861AE;
+}
+/* register page------------------------- */
+.registerpage{
+  margin-top: 5px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.leftregister{
+  width: 30vw;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(241, 239, 239) ;
+}
+
+.rightregister{
+  width: 70vw;
+  text-align: center;
+  justify-content: center;
+  background-color:  rgb(212, 212, 240) ;
+}
+
+.registerlefttile{
+  color: #5861AE;
+  margin-top: 80px;
+  font-size: 80px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.belowlefttitle{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.signinbuttonregister{
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(118, 118, 196);
+}
+
+/* right register */
+
+.registertitleright{
+  font-size: 25px;
+  color : rgb(104, 104, 204);
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 92px;
+}
+
+
+.form-login{
+  /* margin: 45px auto ; */
+  text-align: center;
+  /* width: 90%; */
+}
+
+.form-reg{
+  width: 90%;
+  margin: 45px auto ;
+
+
+}
+.division{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.reg-field{
+  width: 398px;
+}
+
+.checkbox{
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox input{
+  margin-right: 20px;
+}
+.checkbox label{
+  text-decoration: underline;
+}
+
+.reg-page{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 100%;
+}
+
+.home{
+  width: 100%;
+}
+.content-home{
+  width: 70%;
+  margin: 250px auto;
+}
+
+.forgot{
+  color: #2d3ab6;
+  margin-top: 3px;
+  width : 450px;
+  float: right;
+}
+
+.registerbuttonregister{
+  margin-top: 10px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(146, 146, 218);
+  border-width: 3px;
+  background-color: rgb(255, 255, 255);
+}
