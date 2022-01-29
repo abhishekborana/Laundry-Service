@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-bar{
+    background-color: rgb(197, 188, 188);
+    width: 1440px;
+  }
+  
+  .navs{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 108px;
+    height: 68px;
+  }
+  
+  .nav-list{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    padding : 33.5px 40px 27.5px 30.5px ;
+  }
+  
+  .navlast{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    padding : 33.5px 40px 27.5px 30.5px ;
+    background-color: rgb(140, 140, 192);
+  }
+  .logo{
+    font: normal normal 900 20px/27px Avenir;
+    color: #5861AE;
+    opacity: 1;
+  }
+  .container{
+    margin-top: 5px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+  }
+  
+  /* Subnavbar */
+  /* .one{
+    display: inline-block;
+  } */
+  .title-subnavbar {
+    margin-top: 10px;
+    margin-left: 14px;
+    width: 179px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/48px Open Sans;
+    letter-spacing: 0px;
+    color: #1E2022;
+    font-weight: bold;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .create-order .create{
+    margin-left: 1300px;
+    border: 1px solid #5861AE;
+    color: #5861AE;
+    width: 107px;
+    height: 32px;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .search{
+    width:174px;
+    height:20px;
+    margin-left: 14px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background: transparent url("../../public/search.svg") 0% 0% no-repeat padding-box;
+  }
+  .search:hover{
+    width:174px;
+    height:20px;
+    margin-left: 14px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background:none;
+  }
+
+
+
+  .footer{
+    padding-top: 20px;
+    background-color: rgb(212, 212, 240);
+    height: 70px;
+    text-align: center;
+  }
+  /* input[type=text] {
+    background:rgb(190, 190, 231);
+    border: none;
+    border-bottom: 1px solid #000000;
+  } */
+  
